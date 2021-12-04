@@ -4,18 +4,6 @@ const cadena = "(muñeca) consola bici";
 //const cadena = "bici coche (balón bici coche"; 
 
 
-/*function isValid(letter){
-    
-    //const reg = /[\(\){ \}\[\]]+/g; 
-    const reg = /[\[\]\{\}]/i 
-
-    if(!letter.search(reg)){
-        return true
-    }
-
-    return false
-}*/
-
 
 function isValid(letter){
     
