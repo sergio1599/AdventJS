@@ -19,7 +19,7 @@ const cadena = "(muñeca) consola bici";
 
 function isValid(letter){
     
-    if( letter.includes("[") || letter.includes("]") || letter.includes("{") || letter.includes("}") || letter.includes("()")  ){
+    if( letter.includes("{") || letter.includes("}") || letter.includes("[") || letter.includes("]") || letter.includes("()")  ){
         return false; 
     }else if( letter.includes("(") && letter.includes(")") ){
         return true
