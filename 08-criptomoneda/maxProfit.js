@@ -11,9 +11,7 @@ function maxProfit(prices) {
     const min = Math.min(...purchase);
     const max = Math.max(...sale)
 
-    let resp = max <= min ? -1 : max - min;
-
-    return resp;
+    return max <= min ? -1 : max - min;
 
 }
 
