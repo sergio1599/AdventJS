@@ -1,6 +1,6 @@
 
-const pricesBtc = [18, 15, 12, 11, 9, 7];
-
+//const pricesBtc = [18, 15, 12, 11, 9, 7];
+const pricesBtc = [39, 18, 29, 34, 5, 32];
 
 function maxProfit(prices) {
 
